@@ -1,0 +1,575 @@
+* {
+    text-decoration: none;  
+    margin: 0px;
+    padding:0px;
+}
+
+body {
+    margin: 0p;
+    padding: 0px;
+    font-family: Georgia, sans-serif;
+}
+
+/*..Navbar..*/
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.nav-logo {
+    font-family: Times New Roman;
+    font-size: 60px;
+    font-weight: 700;
+    float: left;
+    color:rgb(32, 28, 28);
+}
+
+.menu {
+    float: right; 
+}
+
+nav {
+    width: 100%;
+    margin:auto;
+    display: flex;
+    line-height: 110px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background:rgb(95, 95, 218); 
+    z-index: 1;
+    border-bottom: 3px solid rgb(27, 25, 25);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float : left;
+}
+
+nav ul li a {
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li a:active {
+    color :blue;
+}
+
+/*Beranda*/
+.beranda {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.judul-beranda {
+    font-weight: 750;
+    font-family: Comic sans ms;
+    font-size: 43px;
+    color: rgb(49, 41, 41);
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+    margin-left: 140px;
+    margin-top: 160px;
+}
+
+.beranda-text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.galaksi {
+    margin-left: 140px;
+    margin-bottom: 10px;
+}
+
+.belajar-galaksi {
+    margin-left: 140px;
+    font-size: 19px;
+    font-family: Georgia;
+    font-style: italic;
+}
+
+.beranda-text .galaksi {
+    color: rgb(49, 41, 41);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia;
+}
+
+/*Penjelasan*/
+.planet {
+    margin-top: 20px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.ilustrasi-img {
+    float: right;
+}
+
+.judul-planet {
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: comic sans ms;
+}
+
+.desc {
+    margin-top: 60px;
+    font-family: Times New Roman;
+    font-size: 20px;
+}
+
+.tata-surya {
+    font-weight: bold;
+}
+
+.judul-menu-planet {
+    margin-top: 300px;
+}
+
+.judul-menu {
+    width: 1200px;
+    margin: auto;
+    font-family: comic sans ms;
+    font-weight: bold;
+}
+
+
+/* Menu Flex Box */
+.planet-card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: comic sans ms;
+}
+
+.card1 {
+    width : 250px;
+    height: 380px;
+    background-color: gray;
+    text-align: center ;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+
+.button1:hover {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button1:visited {
+    color: red;
+}
+
+.card2 {
+    width : 250px;
+    height: 380px;
+    background-color: gray;
+    text-align: center ;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.button2:hover {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button2:visited {
+    color: red;
+}
+
+.card3 {
+    width : 250px;
+    height: 380px;
+    background-color: gray;
+    text-align: center ;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.button3:hover {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button3:visited {
+    color: red;
+}
+
+.card4 {
+    width : 250px;
+    height: 380px;
+    background-color: gray;
+    text-align: center ;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.button4:hover {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button4:visited {
+    color: red;
+}
+
+.card5 {
+    width : 250px;
+    height: 380px;
+    background-color: gray;
+    text-align: center ;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.button5:hover {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button5:visited {
+    color: red;
+}
+
+.card6 {
+    width : 250px;
+    height: 380px;
+    background-color: gray;
+    text-align: center ;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.button6:hover {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button6:visited {
+    color: red;
+}
+
+.card7 {
+    width : 250px;
+    height: 380px;
+    background-color: gray;
+    text-align: center ;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.button7:hover {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button7:visited {
+    color: red;
+}
+
+.card8 {
+    width : 250px;
+    height: 380px;
+    background-color: gray;
+    text-align: center ;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.button8:hover {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button8:visited {
+    color: red;
+}
+
+
+/* Anggota */
+.container-anggota {
+    margin-top: 300px;
+    text-align: center;
+    width: 100%;
+    font-family: comic sans ms;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(44, 34, 34);
+}
+
+.judul-anggota {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.list-anggota {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-member {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.card-member img {
+    width: 80%;
+    border-radius: 20%;
+}
+
+.card-member p {
+    font-family: comic sans ms;
+    font-weight: 700;
+    color: rgb(44, 34, 34);
+    text-align: center;
+}
+
+
+/* contact */
+.judul-kontak {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.kontak {
+    margin-top: 40px;
+    background-color: rgb(89, 89, 196);
+    padding: 40px 0px 230px 0px;
+}
+
+.container-kontak {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    font-weight: 600;
+}
+
+.form-item {
+    width: 20%;
+}
+
+.container-sumber {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: comic sans ms;
+}
+
+.text {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: comic sans ms;
+}
+
+
+
+/* Halaman Merkurius */
+.container-merkurius {
+    background-image: url(../background/pola.png);
+    background-size: cover;
+}
+
+.judul-merkurius {
+    text-align: center;
+}
+
+.content {
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    font-family: Georgia;
+    border-radius: 20px;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+}
+
+.home-merku {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* Halaman Venus */
+.container-ven {
+    background-image: url(../background/pola.png);
+    background-size: cover;
+}
+
+.judul-venus {
+    text-align: center;
+}
+
+.content-venus {
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    font-family: Georgia;
+    border-radius: 20px;
+}
+
+.home-ven {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* Halaman Bumi */
+.container-bumi {
+    background-image: url(../background/pola.png);
+    background-size: cover;
+}
+
+.content-bum {
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    font-family: Georgia;
+    border-radius: 20px;
+}
+
+.home-bum {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/*Halaman Mars */
+.container-mars {
+    background-image: url(../background/pola.png);
+    background-size: cover;
+}
+
+.content-mars {
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    font-family: Georgia;
+    border-radius: 20px;
+}
+
+.home-mars {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* Halaman Jupiter */
+.container-jupiter {
+    background-image: url(../background/pola.png);
+    background-size: cover;
+}
+
+.content-jupiter {
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    font-family: Georgia;
+    border-radius: 20px;
+}
+
+.home-jupiter {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* Halaman Saturnus */
+.container-saturnus {
+    background-image: url(../background/pola.png);
+    background-size: cover;
+}
+
+.content-saturnus {
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    font-family: Georgia;
+    border-radius: 20px;
+}
+
+.home-saturnus {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* Halaman Uranus */
+.container-uranus {
+    background-image: url(../background/pola.png);
+    background-size: cover;
+}
+
+.content-uranus {
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    font-family: Georgia;
+    border-radius: 20px;
+}
+
+.home-uranus {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Halaman Neptunus */
+.container-neptunus {
+    background-image: url(../background/pola.png);
+    background-size: cover;
+}
+
+.content-neptunus {
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    font-family: Georgia;
+    border-radius: 20px;
+}
+
+.home-neptunus {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
